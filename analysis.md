@@ -1,3 +1,6 @@
+---
+page: true
+---
 ## Analysis of Algorithms
 
 Analysis of algorithms has two considerations:
