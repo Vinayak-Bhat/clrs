@@ -1,5 +1,6 @@
 ---
 page: true
+permalink: /analysis
 ---
 ## Analysis of Algorithms
 
@@ -16,4 +17,7 @@ If an algorithm performs well in aysmptotic analysis, it will be good enough for
 Also it saves us from calculating the exact performance numbers but yet is detailed enough a metric to compare algorithms for various inputs.
 
 
+There are five asymptotic notations that are used.
+
+O(n) - big O notation which is the most common.
 
