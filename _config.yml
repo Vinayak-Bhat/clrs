@@ -21,3 +21,4 @@
 
 # Build settings
 theme: jekyll-theme-dinky
+baseurl: /clrs/
