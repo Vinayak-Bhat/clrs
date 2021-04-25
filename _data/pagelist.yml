@@ -1,0 +1,9 @@
+docs_list_title: "List of pages"
+docs:
+
+- title: "Analysis of Algorithms"
+  url: analysis.html
+
+- title: "References and reading lists"
+  url: readinglist.html
+
