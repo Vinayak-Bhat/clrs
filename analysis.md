@@ -1,6 +1,5 @@
 ---
 page: true
-permalink: /clrs/analysis/
 ---
 ## Analysis of Algorithms
 
