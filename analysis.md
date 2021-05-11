@@ -1,6 +1,8 @@
 ---
 page: true
 ---
+{% include mathjax.html %}
+
 ## Analysis of Algorithms
 
 Analysis of algorithms has two considerations:
