@@ -24,5 +24,5 @@ O() - big O notation which is the most common.
 
 An algorithm is said to run in O(g(n)) time, when the running time f(n) is such that f(n) is less than c * g(n) for all n greater than some positive n0 and positive constant c.
 example 
-$$ f(n) = an^2 + bn +c $$ is O(n2) $$
+$$ f(n) = an^2 + bn +c $$ is $$ O(n^2) $$
 
