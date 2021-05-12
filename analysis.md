@@ -22,8 +22,8 @@ There are five asymptotic notations that are used.
 
 ### O() - big O notation which is the most common.
 
-An algorithm is said to run in $$O(g(n))$$ time, when there exists a positive constant c, for some positive $$ n{0} $$, such that:
-$$ f(n) \le c * g(n) $$ for all $$ n  \ge n{0}$$.
+An algorithm is said to run in $$O(g(n))$$ time, when there exists a positive constant c, for some positive $$ n_0 $$, such that:
+$$ f(n) \le c * g(n) $$ for all $$ n  \ge n_0 $$.
 where $$f(n) $$ is the function representing the runtime of the algorithm.
 
 example 
@@ -33,8 +33,8 @@ It means the running time of algorithm is always less than or equal to $$g(n)$$ 
 
 ### $$\Omega()$$ - Omega notation 
 
-An algorithm is said to run in $$ \Omega(g(n))$$ time, when there exist positive constants $$c{1} $$ $$c{2}$$, for some positive $$ n{0} $$, such that:
-$$ c{1] * g(n) \ge f(n) \le c{2} * g(n)$$ for all $$ n \ge n{0} $$
+An algorithm is said to run in $$ \Omega(g(n)) $$ time, when there exist positive constants $$ c_1 , c_2 $$, for some positive $$ n_0 $$, such that:
+$$ c_1 * g(n) \le f(n) \ge c_2 * g(n) $$ for all $$ n \ge n_0 $$
 where $$ f(n) $$ is the function representing the runtime of the algorithm.
 
 
