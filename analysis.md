@@ -53,8 +53,8 @@ where $$f(n) $$ is the function representing the runtime of the algorithm.
 
 ### $$\omega()$$ - Small omega notation
 
-An algorithm is said to run in $$\delta(g(n))$$ time, for a positive constant $$c_0$$ there exists a positive $$ n_0 $$, such that:
-$$ f(n) \gt c_0 * g(n) $$ for all $$ n  \ge n_0 $$.
+An algorithm is said to run in $$\omega(g(n))$$ time, there exists a positive $$ n_0 $$, such that:
+$$ f(n) \lt c * g(n) $$ for all $$ n  \ge n_0 $$ and for any positive constant c
 where $$f(n) $$ is the function representing the runtime of the algorithm.
 
 
