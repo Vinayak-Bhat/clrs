@@ -28,9 +28,13 @@ An algorithm is said to run in $$O(g(n))$$ time, when there exists a positive co
 $$ 0 \le f(n) \le c * g(n) $$ for all $$ n  \ge n_0 $$.
 where $$f(n) $$ is the function representing the runtime of the algorithm.
 
-Example:
-An algorithm, whose running time is reqpresented by function $$f(n) = an^2 + bn +c $$ is said to be  $$ O(n^2) $$
+Examples:
+* An algorithm, whose running time is reqpresented by function $$f(n) = an^2 + bn +c $$ is said to be  $$ O(n^2) $$
+* $$f(n) = an+ b$$ then $$ f(n) = O(n)$$
+* $$f(n) = a_1 $$ then $$f(n) = O(1) $$.  Here, function here is constant and does not increase with input. This represents an algorithm that takes constant time $$a_1$$ to run. Also note that the  $$O(1)$$ is easy representation for $$O(n^0)$$. $$O(1)$$ does not indicate the variable that is increasing asymptotically.
 
+When we say a function $$f(n) = O(g(n))$$, it is meant that $$f(n)$$, belongs to a set of functions reprensented by $$O(g(n))$$.
+The equality is commonly used instead of the more accurate belonging to a set. This is true for other asymptotic notations below as wel.
 
 ### $$\Theta()$$ - Theta notation 
 
