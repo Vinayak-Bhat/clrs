@@ -3,7 +3,10 @@ docs:
 
 - title: "Analysis of Algorithms"
   url: analysis.html
-
+- title: "Divide and Conquer"
+  url: divide_conquer.html
 - title: "References and reading lists"
   url: readinglist.html
+
+
 
