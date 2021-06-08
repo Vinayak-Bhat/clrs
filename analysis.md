@@ -22,7 +22,7 @@ Also it saves us from calculating the exact performance numbers but yet is detai
 
 There are five asymptotic notations in use:
 
-### O() - "big Oh" notation
+### O() - "big O" notation
 
 An algorithm is said to run in $$O(g(n))$$ time, when there exists a positive constant c, for some positive $$ n_0 $$, such that:
 $$ 0 \le f(n) \le c * g(n) $$ for all $$ n  \ge n_0 $$.
